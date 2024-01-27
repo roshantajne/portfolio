@@ -45,7 +45,7 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container py-5">
+  <div class="container">
 
     <!-- content header -->
     <div class="row">
@@ -63,9 +63,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-2">
             <div class="container">
-                <img class="images img-fluid mx-auto d-block" src="images/profile-pic1.png" alt="my pic" style="max-width: 75%; height: auto;">
+                <img class="images img-fluid mx-auto d-block" src="images/profile-pic1.png" alt="my pic" style="max-width: 75%; height: auto; margin:25px">
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@
         </div>
 
         <div class="row">
-            <div class="col-lg-6 mb-2">
+            <div class="col-lg-6 my-4">
                 <div class="card card1">
                     <img src="images/project1.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -129,7 +129,7 @@
                   </div>
             </div>
 
-            <div class="col-lg-6 mb-2">
+            <div class="col-lg-6 my-4">
                 <div class="card card1">
                     <img src="images/project2.png" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -138,18 +138,40 @@
                         Implemented a job scheduling portal leveraging location and time constraints, 
                         boosting daily job capacity by 25% and improving operational efficiency.
                       </p>
-                      <p class="card-text text-muted">Tech stack:  MERN Stack, OpenStreetMap API, Leaflet Routing Machine, TSP algorithms.</p>
+                      <p class="card-text text-muted">Tech stack:  MERN Stack, OpenStreetMap API, Leaflets</p>
                       <i class="fa-solid fa-link"></i> <a href="#">Check Website</a>
                     </div>
                   </div>
             </div>
 
-            <div class="col-lg-6 mb-2">
-                
+            <div class="col-lg-6 my-4">
+              <div class="card card1">
+                <img src="images/project3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Requirements-based Loan System for Farmers</h5>
+                  <p class="card-text">
+                    Designed an innovative agricultural loan system inspired by Chhatrapati 
+                    Shivaji Maharaj's model, reducing farmers' cash requirement by 70%.
+                  </p>
+                  <p class="card-text text-muted">Tech stack: PHP, Bootstrap, HTML, CSS, JavaScript, MySQL</p>
+                  <i class="fa-solid fa-link"></i> <a href="#">Check Website</a>
+                </div>
+              </div>
             </div>
 
-            <div class="col-lg-6 mb-2">
-                
+            <div class="col-lg-6 my-4">
+              <div class="card card1">
+                <img src="images/project4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Requirements-based Loan System for Farmers</h5>
+                  <p class="card-text">
+                    Developed for Microsoft Future Ready Talent Virtual Internship Program. 
+                    Implemented a healthbot for disease consultation.
+                  </p>
+                  <p class="card-text text-muted">Tech stack: HTML, CSS, JavaScript, Bootstrap, ML, MS Azure</p>
+                  <i class="fa-solid fa-link"></i> <a href="https://yellow-moss-0a0e18b00.3.azurestaticapps.net/" target="_blank">Check Website</a>
+                </div>
+              </div>
             </div>
 
             <!-- Add more project cards as needed -->
@@ -159,7 +181,7 @@
 
 
     <!-- Services Section -->
-    <section id="services" class="my-5">
+    <section id="services" class="page-section">
     <h2 class="page-section-heading text-center text-uppercase text-dark">Services</h2>
       <div class="divider-custom divider-dark">
             <div class="divider-custom-line"></div>
@@ -168,13 +190,13 @@
         </div>
 
         <!-- serives start -->
-        <div class="row">
-            <div class="col-lg-4 mb-2">
+        <div class="row p-3">
+            <div class="col-lg-4 my-4">
               <div class="card card2 d-flex align-items-center">
                 <div class="card-body ">
                     <!-- Lottie Animation -->
                     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-                    <dotlottie-player src="https://lottie.host/1daa10dc-faf5-4f92-a65e-71914e92df41/99tWPzCrTc.lottie" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
+                    <dotlottie-player class="lottie-player" src="https://lottie.host/1daa10dc-faf5-4f92-a65e-71914e92df41/99tWPzCrTc.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
                     <!-- Title -->
                     <h6 class="card-title text-center">Web Development</h6>
                     <!-- Subtitle -->
@@ -184,32 +206,74 @@
         </div>
 
 
-            <div class="col-lg-4 mb-2">
+            <div class="col-lg-4 my-4">
                 <div class="card card2 d-flex align-items-center">
                    <div class="card-body ">
                        <!-- Lottie Animation -->
-                       <dotlottie-player src="https://lottie.host/c8aa4204-5719-4fd8-b400-839e1f8b694a/JGLpt98wQR.lottie" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
+                       <dotlottie-player class="lottie-player" src="https://lottie.host/c8aa4204-5719-4fd8-b400-839e1f8b694a/JGLpt98wQR.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
                        <!-- Title -->
                        <h6 class="card-title text-center">Database Management</h6>
                        <!-- Subtitle -->
-                       <p class="card-text text-justify" id="subtitle">Setting up, managing, and integrating databases using MySQL, MongoDB, and Oracle, ensuring efficient data storage, retrieval, and manipulation.</p>
+                       <p class="card-text text-justify" id="subtitle">Setting up, managing, and integrating databases and ensuring efficient data storage, retrieval, and manipulation.</p>
                    </div>
                </div>
             </div>
 
-               <div class="col-lg-4 mb-2">
+               <div class="col-lg-4 my-4">
                 <div class="card card2 d-flex align-items-center">
                    <div class="card-body ">
                        <!-- Lottie Animation -->
                        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-                       <dotlottie-player src="https://lottie.host/7eec4d3b-1795-4124-8cb2-ad0ea2983c2a/nP09y7IWD9.lottie" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></dotlottie-player>
+                       <dotlottie-player class="lottie-player" src="https://lottie.host/7eec4d3b-1795-4124-8cb2-ad0ea2983c2a/nP09y7IWD9.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
                        <!-- Title -->
                        <h6 class="card-title text-center">UI/UX Design</h6>
                        <!-- Subtitle -->
-                       <p class="card-text text-justify" id="subtitle">Offering UI/UX design services to create intuitive and visually appealing user interfaces for websites and applications, focusing on enhancing user experience and engagement.</p>
+                       <p class="card-text text-justify" id="subtitle">Offering UI/UX design services to create visually appealing user interfaces, focusing on enhancing user experience and engagement.</p>
                    </div>
                </div>
             </div>
+
+            <div class="col-lg-4 my-4">
+              <div class="card card2 d-flex align-items-center">
+                 <div class="card-body ">
+                     <!-- Lottie Animation -->
+                     <dotlottie-player class="lottie-player" src="https://lottie.host/40a4597d-ff59-44b7-a7a4-d7fa2e88010b/AgUnK0DA9r.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
+                     <!-- Title -->
+                     <h6 class="card-title text-center">Data Analysis</h6>
+                     <!-- Subtitle -->
+                     <p class="card-text text-justify" id="subtitle">Utilizing my skills in NumPy, Pandas, SQL, and Python to perform data analysis, extract insights for informed decision-making.</p>
+                 </div>
+             </div>
+          </div>
+
+          <div class="col-lg-4 my-4">
+            <div class="card card2 d-flex align-items-center">
+               <div class="card-body ">
+                   <!-- Lottie Animation -->
+                   <dotlottie-player class="lottie-player" src="https://lottie.host/e662009b-bab7-431d-837b-a82b1bf1778f/W24BZhdppr.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
+                   <!-- Title -->
+                   <h6 class="card-title text-center">Digital Marketing</h6>
+                   <!-- Subtitle -->
+                   <p class="card-text text-justify" id="subtitle">Developing and executing digital marketing strategies to enhance online presence, drive traffic, and generate leads.</p>
+               </div>
+           </div>
+        </div>
+
+        <div class="col-lg-4 my-4">
+          <div class="card card2 d-flex align-items-center">
+             <div class="card-body ">
+                 <!-- Lottie Animation -->
+                 <dotlottie-player class="lottie-player" src="https://lottie.host/a41f195c-6951-46e3-b6e0-d3df84314fee/aLoLQmL8dI.lottie" background="transparent" speed="1"  loop autoplay></dotlottie-player>
+                 <!-- Title -->
+                 <h6 class="card-title text-center">Digital Solutions</h6>
+                 <!-- Subtitle -->
+                 <p class="card-text text-justify" id="subtitle">Offering comprehensive digital solutions tailored to meet your needs. Provinding solutions to your digital problems</p>
+             </div>
+         </div>
+      </div>
+
+
+
         </div>
     </section>
     
