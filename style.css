@@ -145,6 +145,18 @@ p .marathi {
   height: 200px; /* Adjust the height as needed */
 }
 
+/* contact */
+#contact .row a{
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .row p {
+  text-align: center;
+}
+
 @keyframes SocialAni {
     0% {
         transform: translateY(100px);
